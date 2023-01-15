@@ -27,33 +27,30 @@ class _Page1State extends State<Page1> {
               '20201145',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            const SizedBox(
-              height: 20,
-            ),
-            //foto
-            Image(
-                image: NetworkImage(
-                    'https://cdn.dribbble.com/users/1577045/screenshots/4914645/media/028d394ffb00cb7a4b2ef9915a384fd9.png?compress=1&resize=400x300&vertical=top')),
-            const SizedBox(
-              height: 20,
-            ),
-            const Text(
-              'DonTech Company',
-              style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(
-              height: 20,
-            ),
-            //logo
-            Image(
-                image: NetworkImage(
-                    'https://maxipro.co.id/wp-content/uploads/2022/01/logo-Maxipro-1024x1024.jpg')),
-            ElevatedButton(
-                onPressed: () {
-                  //show dialog
-                  myDialog(context);
-                },
-                child: const Text('Hubungi'))
+            // const SizedBox(
+            //   height: 20,
+            // ),
+            // //foto
+            // //display image from assets
+            // const Image(image: AssetImage('assets/dony.jpeg')),
+            // const SizedBox(
+            //   height: 20,
+            // ),
+            // const Text(
+            //   'DonTech Company',
+            //   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+            // ),
+            // const SizedBox(
+            //   height: 20,
+            // ),
+            // //logo
+            // const Image(image: AssetImage('assets/logo.jpeg')),
+            // ElevatedButton(
+            //     onPressed: () {
+            //       //show dialog
+            //       myDialog(context);
+            //     },
+            //     child: const Text('Hubungi'))
           ],
         )),
       ),
